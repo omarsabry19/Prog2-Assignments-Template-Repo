@@ -1,0 +1,19 @@
+//omar sabry
+//20216573
+
+#include <iostream>
+
+int main() {
+    int x, y;
+    std::cin >> x >> y;
+
+    int sum = x + y;
+    int product = x * y;
+    int difference = x - y;
+
+    std::cout << "X + Y = " << sum << std::endl;
+    std::cout << "X * Y = " << product << std::endl;
+    std::cout << "X - Y = " << difference << std::endl;
+
+    return 0;
+}
